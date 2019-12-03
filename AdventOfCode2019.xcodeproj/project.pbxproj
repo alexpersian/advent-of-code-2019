@@ -58,6 +58,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20590ECA2396FE2400415C6B /* Day2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day2;
+			sourceTree = "<group>";
+		};
 		FAABF1902395752A004CC4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -82,7 +89,8 @@
 			children = (
 				FAABF19C2395752A004CC4D5 /* AppDelegate.swift */,
 				FAABF1BD23957553004CC4D5 /* Application */,
-				FAABF1BC2395754A004CC4D5 /* Day 1 */,
+				FAABF1BC2395754A004CC4D5 /* Day1 */,
+				20590ECA2396FE2400415C6B /* Day2 */,
 			);
 			path = AdventOfCode2019;
 			sourceTree = "<group>";
@@ -96,13 +104,13 @@
 			path = AdventOfCode2019Tests;
 			sourceTree = "<group>";
 		};
-		FAABF1BC2395754A004CC4D5 /* Day 1 */ = {
+		FAABF1BC2395754A004CC4D5 /* Day1 */ = {
 			isa = PBXGroup;
 			children = (
 				FACAC4C2239581AB00FD1A21 /* RocketFueler.swift */,
 				FAABF1D4239580FB004CC4D5 /* module-masses.txt */,
 			);
-			path = "Day 1";
+			path = Day1;
 			sourceTree = "<group>";
 		};
 		FAABF1BD23957553004CC4D5 /* Application */ = {
@@ -369,12 +377,13 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = AdventOfCode2019/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = alexpersian.AdventOfCode2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -390,12 +399,13 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = AdventOfCode2019/Application/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = alexpersian.AdventOfCode2019;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
