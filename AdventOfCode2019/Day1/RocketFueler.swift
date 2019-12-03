@@ -16,7 +16,7 @@ final class RocketFueler {
         guard
             let path = Bundle.main.path(forResource: "module-masses", ofType: "txt"),
             let data = try? String(contentsOfFile: path, encoding: .utf8)
-            else { return 0 }
+            else { fatalError("Unable to read input file.") }
 
         // Break up the loaded strings into integers
         let moduleMasses = data

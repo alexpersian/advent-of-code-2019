@@ -17,6 +17,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let fueler = RocketFueler()
         print("Fuel required:", fueler.getRequiredFuel())
 
+        // Day 2
+        let computer = Computer()
+        print("Intcode:", computer.run())
+
         NSApplication.shared.terminate(nil)
     }
 }

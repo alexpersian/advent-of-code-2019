@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207D06BA2396FFD200AC7F5B /* intcode-commands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 207D06B92396FFD200AC7F5B /* intcode-commands.txt */; };
+		207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D06BB2396FFE600AC7F5B /* Computer.swift */; };
 		FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF19C2395752A004CC4D5 /* AppDelegate.swift */; };
 		FAABF1A12395752D004CC4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAABF1A02395752D004CC4D5 /* Assets.xcassets */; };
 		FAABF1B02395752D004CC4D5 /* AdventOfCode2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF1AF2395752D004CC4D5 /* AdventOfCode2019Tests.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207D06B92396FFD200AC7F5B /* intcode-commands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "intcode-commands.txt"; sourceTree = "<group>"; };
+		207D06BB2396FFE600AC7F5B /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
 		FAABF1992395752A004CC4D5 /* AdventOfCode2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAABF19C2395752A004CC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
 		FAABF1A02395752D004CC4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		20590ECA2396FE2400415C6B /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
+				207D06BB2396FFE600AC7F5B /* Computer.swift */,
+				207D06B92396FFD200AC7F5B /* intcode-commands.txt */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -208,6 +214,7 @@
 				FAABF1A12395752D004CC4D5 /* Assets.xcassets in Resources */,
 				FACAC4C52395843500FD1A21 /* README.md in Resources */,
 				FAABF1D5239580FB004CC4D5 /* module-masses.txt in Resources */,
+				207D06BA2396FFD200AC7F5B /* intcode-commands.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */,
 				FACAC4C3239581AB00FD1A21 /* RocketFueler.swift in Sources */,
 				FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */,
 			);
