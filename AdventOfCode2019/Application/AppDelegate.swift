@@ -16,10 +16,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Day 1
         let fueler = RocketFueler()
         print("Fuel required:", fueler.getRequiredFuel())
-
+        
         // Day 2
         let computer = Computer()
-        print("Intcode:", computer.run())
+        print("Intcode result:", computer.run(noun: 12, verb: 2))
+        // Part two
+        if let inputs = computer.find(result: 19690720) {
+            print("""
+            Necessary inputs found...
+              Noun: \(inputs.noun)
+              Verb: \(inputs.verb)
+            """)
+        }
 
         NSApplication.shared.terminate(nil)
     }
