@@ -25,6 +25,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             print("Necessary inputs found... Noun: \(inputs.noun) Verb: \(inputs.verb)")
         }
 
+        // Day 3
+        let grid = WireGrid()
+        let result = grid.findNearestIntersection(to: Point(x: 0, y: 0))
+        print("Closest wire crossing:", result.0)
+        print("Shortest wire crossing:", result.1)
+
         NSApplication.shared.terminate(nil)
     }
 }

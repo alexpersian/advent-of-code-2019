@@ -4,3 +4,4 @@ Problem solutions for the [2019 Advent of Code](https://adventofcode.com/2019) c
 
 * [Day 1](AdventOfCode2019/Day1/RocketFueler.swift)
 * [Day 2](AdventOfCode2019/Day2/Computer.swift)
+* [Day 3](AdventOfCode2019/Day3/WireGrid.swift)

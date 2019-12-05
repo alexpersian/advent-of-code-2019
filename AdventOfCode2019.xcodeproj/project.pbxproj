@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		207D06BA2396FFD200AC7F5B /* intcode-commands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 207D06B92396FFD200AC7F5B /* intcode-commands.txt */; };
 		207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D06BB2396FFE600AC7F5B /* Computer.swift */; };
+		207D06BF23983A0900AC7F5B /* wire-segments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 207D06BE23983A0900AC7F5B /* wire-segments.txt */; };
+		207D06C123983C3B00AC7F5B /* WireGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D06C023983C3B00AC7F5B /* WireGrid.swift */; };
 		FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF19C2395752A004CC4D5 /* AppDelegate.swift */; };
 		FAABF1A12395752D004CC4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAABF1A02395752D004CC4D5 /* Assets.xcassets */; };
 		FAABF1B02395752D004CC4D5 /* AdventOfCode2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF1AF2395752D004CC4D5 /* AdventOfCode2019Tests.swift */; };
@@ -31,6 +33,8 @@
 /* Begin PBXFileReference section */
 		207D06B92396FFD200AC7F5B /* intcode-commands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "intcode-commands.txt"; sourceTree = "<group>"; };
 		207D06BB2396FFE600AC7F5B /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		207D06BE23983A0900AC7F5B /* wire-segments.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "wire-segments.txt"; sourceTree = "<group>"; };
+		207D06C023983C3B00AC7F5B /* WireGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireGrid.swift; sourceTree = "<group>"; };
 		FAABF1992395752A004CC4D5 /* AdventOfCode2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAABF19C2395752A004CC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
 		FAABF1A02395752D004CC4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,6 +75,15 @@
 			path = Day2;
 			sourceTree = "<group>";
 		};
+		207D06BD239839DA00AC7F5B /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				207D06C023983C3B00AC7F5B /* WireGrid.swift */,
+				207D06BE23983A0900AC7F5B /* wire-segments.txt */,
+			);
+			path = Day3;
+			sourceTree = "<group>";
+		};
 		FAABF1902395752A004CC4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +110,7 @@
 				FAABF1BD23957553004CC4D5 /* Application */,
 				FAABF1BC2395754A004CC4D5 /* Day1 */,
 				20590ECA2396FE2400415C6B /* Day2 */,
+				207D06BD239839DA00AC7F5B /* Day3 */,
 			);
 			path = AdventOfCode2019;
 			sourceTree = "<group>";
@@ -213,6 +227,7 @@
 				FAABF1D32395800E004CC4D5 /* Main.storyboard in Resources */,
 				FAABF1A12395752D004CC4D5 /* Assets.xcassets in Resources */,
 				FACAC4C52395843500FD1A21 /* README.md in Resources */,
+				207D06BF23983A0900AC7F5B /* wire-segments.txt in Resources */,
 				FAABF1D5239580FB004CC4D5 /* module-masses.txt in Resources */,
 				207D06BA2396FFD200AC7F5B /* intcode-commands.txt in Resources */,
 			);
@@ -233,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */,
+				207D06C123983C3B00AC7F5B /* WireGrid.swift in Sources */,
 				FACAC4C3239581AB00FD1A21 /* RocketFueler.swift in Sources */,
 				FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */,
 			);
