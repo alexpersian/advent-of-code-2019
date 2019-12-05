@@ -16,7 +16,6 @@
 		FAABF1D5239580FB004CC4D5 /* module-masses.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAABF1D4239580FB004CC4D5 /* module-masses.txt */; };
 		FACAC4C3239581AB00FD1A21 /* RocketFueler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAC4C2239581AB00FD1A21 /* RocketFueler.swift */; };
 		FACAC4C52395843500FD1A21 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FACAC4C42395843500FD1A21 /* README.md */; };
-		FACAC4C7239764D200FD1A21 /* PropertyWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAC4C6239764D200FD1A21 /* PropertyWrappers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +42,6 @@
 		FAABF1D4239580FB004CC4D5 /* module-masses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "module-masses.txt"; sourceTree = "<group>"; };
 		FACAC4C2239581AB00FD1A21 /* RocketFueler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketFueler.swift; sourceTree = "<group>"; };
 		FACAC4C42395843500FD1A21 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		FACAC4C6239764D200FD1A21 /* PropertyWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrappers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				FAABF19C2395752A004CC4D5 /* AppDelegate.swift */,
-				FACAC4C6239764D200FD1A21 /* PropertyWrappers.swift */,
 				FAABF1BD23957553004CC4D5 /* Application */,
 				FAABF1BC2395754A004CC4D5 /* Day1 */,
 				20590ECA2396FE2400415C6B /* Day2 */,
@@ -237,7 +234,6 @@
 			files = (
 				207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */,
 				FACAC4C3239581AB00FD1A21 /* RocketFueler.swift in Sources */,
-				FACAC4C7239764D200FD1A21 /* PropertyWrappers.swift in Sources */,
 				FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

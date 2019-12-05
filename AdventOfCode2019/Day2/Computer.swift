@@ -24,10 +24,7 @@ final class Computer {
 
     private func loadInstructions() -> [Int] {
         // Load in the intcodes from the file storage
-        guard
-            let path = Bundle.main.path(forResource: "intcode-commands", ofType: "txt"),
-            let data = try? String(contentsOfFile: path, encoding: .utf8)
-            else { fatalError("Unable to read input file.") }
+        let data = Bundle.loadFile(name: "intcode-commands")
 
         // Break up the loaded strings into integers
         return data

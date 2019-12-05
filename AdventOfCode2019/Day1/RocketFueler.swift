@@ -13,10 +13,7 @@ final class RocketFueler {
     /// Calculates the total amount of fuel required for the rocket with all modules onboard.
     func getRequiredFuel() -> Int {
         // Load in the module masses from the file storage
-        guard
-            let path = Bundle.main.path(forResource: "module-masses", ofType: "txt"),
-            let data = try? String(contentsOfFile: path, encoding: .utf8)
-            else { fatalError("Unable to read input file.") }
+        let data = Bundle.loadFile(name: "module-masses")
 
         // Break up the loaded strings into integers
         let moduleMasses = data
