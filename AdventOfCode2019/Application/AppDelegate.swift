@@ -31,6 +31,11 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         print("Closest wire crossing:", result.0)
         print("Shortest wire crossing:", result.1)
 
+        // Day 4
+        let cracker = PasswordCracker()
+        print("Number of options:", cracker.optionsInRange(start: 240298, end: 784956))
+
+        // Terminate the program immediately so it behaves like a CLI project
         NSApplication.shared.terminate(nil)
     }
 }

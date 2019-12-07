@@ -11,6 +11,7 @@
 		207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D06BB2396FFE600AC7F5B /* Computer.swift */; };
 		207D06BF23983A0900AC7F5B /* wire-segments.txt in Resources */ = {isa = PBXBuildFile; fileRef = 207D06BE23983A0900AC7F5B /* wire-segments.txt */; };
 		207D06C123983C3B00AC7F5B /* WireGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207D06C023983C3B00AC7F5B /* WireGrid.swift */; };
+		20C92D65239AD28900787264 /* PasswordCracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C92D64239AD28900787264 /* PasswordCracker.swift */; };
 		FAABF19D2395752A004CC4D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF19C2395752A004CC4D5 /* AppDelegate.swift */; };
 		FAABF1A12395752D004CC4D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAABF1A02395752D004CC4D5 /* Assets.xcassets */; };
 		FAABF1B02395752D004CC4D5 /* AdventOfCode2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAABF1AF2395752D004CC4D5 /* AdventOfCode2019Tests.swift */; };
@@ -35,6 +36,7 @@
 		207D06BB2396FFE600AC7F5B /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
 		207D06BE23983A0900AC7F5B /* wire-segments.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "wire-segments.txt"; sourceTree = "<group>"; };
 		207D06C023983C3B00AC7F5B /* WireGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireGrid.swift; sourceTree = "<group>"; };
+		20C92D64239AD28900787264 /* PasswordCracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCracker.swift; sourceTree = "<group>"; };
 		FAABF1992395752A004CC4D5 /* AdventOfCode2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdventOfCode2019.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAABF19C2395752A004CC4D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
 		FAABF1A02395752D004CC4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 			path = Day2;
 			sourceTree = "<group>";
 		};
+		20649AE8239ACF95006711F1 /* Day4 */ = {
+			isa = PBXGroup;
+			children = (
+				20C92D64239AD28900787264 /* PasswordCracker.swift */,
+			);
+			path = Day4;
+			sourceTree = "<group>";
+		};
 		207D06BD239839DA00AC7F5B /* Day3 */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 				FAABF1BC2395754A004CC4D5 /* Day1 */,
 				20590ECA2396FE2400415C6B /* Day2 */,
 				207D06BD239839DA00AC7F5B /* Day3 */,
+				20649AE8239ACF95006711F1 /* Day4 */,
 			);
 			path = AdventOfCode2019;
 			sourceTree = "<group>";
@@ -247,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C92D65239AD28900787264 /* PasswordCracker.swift in Sources */,
 				207D06BC2396FFE600AC7F5B /* Computer.swift in Sources */,
 				207D06C123983C3B00AC7F5B /* WireGrid.swift in Sources */,
 				FACAC4C3239581AB00FD1A21 /* RocketFueler.swift in Sources */,
@@ -326,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -383,7 +395,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -450,7 +462,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = alexpersian.AdventOfCode2019Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -472,7 +484,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = alexpersian.AdventOfCode2019Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
